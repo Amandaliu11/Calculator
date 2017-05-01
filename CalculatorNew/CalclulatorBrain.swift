@@ -17,7 +17,7 @@ public class CalculatorBrain{
         "+": Operation.BinaryOperation({$0 + $1}),
         "−": Operation.BinaryOperation({$0 - $1}),
         "√": Operation.UnaryOperation(sqrt),
-        "π": Operation.Constant(M_PI),
+        "π": Operation.Constant(Double.pi),
         "=": Operation.Equals
     ]
     
